@@ -4,10 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: test
+- type: directory
+  path: Pagina de pruebas
   label: Test
-  read_only: false
+  create: all
+  match: "**/*"
 - type: directory
   path: content/blog
   label: Post
