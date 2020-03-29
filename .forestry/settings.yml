@@ -7,7 +7,7 @@ sections:
 - type: document
   path: test
   label: Test
-  read_only: true
+  read_only: false
 - type: directory
   path: content/blog
   label: Post
